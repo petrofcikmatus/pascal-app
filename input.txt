@@ -1,1 +1,7 @@
-Toto je testovaci subor pre moj program, ktory som vytvoril. S pozdravom, Matus Petrofcik.
+Toto je testovaci subor pre moj program, ktory som vytvoril. 
+Toto je druhy riadok.
+
+Okolo tohto riadku su prazdne riadky :P
+
+A na tomto riadku je diakritika. Teda až teraz, no v ASCII tabulke take pismenko nie je :(
+S pozdravom, Matus Petrofcik.
