@@ -29,7 +29,7 @@ begin
 	reset(file_src);
 
 	// Hláška, že sme otvorili zdrojový súbor.
-	writeln('Zdrojový súbor bol úspešne otvorený.');
+	writeln('Zdrojovy subor bol uspesne otvoreny.');
 
 	// Do premennej file_dst priradíme cieľový súbor...
 	assign(file_dst, DST_FILE_NAME);
@@ -38,7 +38,7 @@ begin
 	rewrite(file_dst);
 
 	// Hláška, že sme vytvorili/vyčistili cieľový súbor.
-	writeln('Cieľový súbor bol úspešne vytvorený/vyčistený.');
+	writeln('Cielovy subor bol uspesne vytvoreny/vycisteny.');
 
 	// Cyklus while, kým neprejdeme celý zdrojový súbor.
 	while not eof(file_src) do begin
@@ -55,21 +55,21 @@ begin
 	end;
 
 	// Hláška, že sa všetko poradilo.
-	writeln('Zdrojový súbor bol úspešne prekopírovaný do cieľového súboru.');
+	writeln('Zdrojovy subor bol uspesne prekopirovany do cieloveho suboru.');
 
 	// Zatvorenie oboch súborov.
 	close(file_src);
 	close(file_dst);
 
 	// Hláška, že sa sme zatvorili súbory.
-	writeln('Zdrojový aj cieľový súbor boli zatvorené.');
+	writeln('Zdrojovy aj cielovy subor boli zatvorene.');
 
 	// Vypis, že kto program vytvoril :P
 	writeln('-------------------------');
-	writeln('Vytvoril Matúš Petrofčík.');
+	writeln('Vytvoril Matus Petrofcik.');
 
 	// Čakanie na stlačenie Enteru.
-	writeln('Program ukončíte stlačením klávesy Enter.');
+	writeln('Program ukoncite stlacenim klavesy Enter.');
 	readln;
 
 // Koniec programu.
